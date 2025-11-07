@@ -1,15 +1,14 @@
 #include <iostream>
 
-int main() {
-    int age = 16;
-    double height = 180;
-    std::string name = "小魚";
-    bool is_student = false;
-    std::cout << "name: " << name << std::endl;
-    std::cout << "height: " << height << std::endl;
-    std::cout << "age: " << age << std::endl;
-    std::cout << "is_student: " << is_student << std::endl;
+int main()
+{
     
+    std::cout<<"快樂星球" << std::endl;
+    std::cout<<"快 樂 星 球" << std::endl;
+    std::cout<<"快\t樂\t星\t球" << std::endl;
+    std::cout<<"快\n樂\n星\n球" << std::endl;
+    std::cout<<"快\"樂\"星\"球" << std::endl;
+    std::cout<<"\\快樂星球\\" << std::endl;
 
-    return 0;
+ return 0;
 }
